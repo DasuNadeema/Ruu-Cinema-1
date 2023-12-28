@@ -1,35 +1,35 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { Movie } from "../types/types";
+import { Series } from "../types/types";
 
 const messageSlice = createSlice({
-  name: "AllMovies",
+  name: "Series",
   initialState: {
     loading: true,
     success: false,
     error: "",
-    movies: [] as Movie[],
+    series: [] as Series[],
   },
   reducers: {
     request: (state) => {
       state.loading = true;
       state.success = false;
       state.error = "";
-      state.movies = [] as Movie[];
+      state.series = [] as Series[];
     },
-    getAllMoviesSuccess: (state, action) => {
+    getSeriesSuccess: (state, action) => {
       state.loading = false;
       state.success = true;
-      state.movies = action.payload;
+      state.series = action.payload;
     },
     failure: (state, action) => {
       state.loading = false;
       state.success = false;
       state.error = action.payload;
-      state.movies = [] as Movie[];
+      state.series = [] as Series[];
     },
   },
 });
 
-export const { request, getAllMoviesSuccess, failure } = messageSlice.actions;
+export const { request, getSeriesSuccess, failure } = messageSlice.actions;
 
 export default messageSlice.reducer;

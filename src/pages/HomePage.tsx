@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../component/Header";
-import Movie from "../component/Movie";
+import Movie from "../component/Banner";
 import Main from "../component/Main";
 import Schedule from "../component/Schedule";
 import Card from "../component/Card";
