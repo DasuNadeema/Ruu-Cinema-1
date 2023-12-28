@@ -3,7 +3,7 @@
   height: 100%;
   margin-right: auto;
   margin-left: 0rem;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(180px, auto));
   gap: 0.5rem;
   margin-top: 2rem;
@@ -11,7 +11,7 @@
 
 .box .box-img {
   margin-top: 2rem;
-  width: 100%;
+  width: 90%;
   height: 320px;
 }
 
@@ -75,7 +75,7 @@ h3 {
     max-width: 100%;
     margin-left: 0;
     gap: 0;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   }
 }
@@ -141,7 +141,7 @@ h3 {
     width: 104%;
     margin-left: 0;
     gap: 0;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));
   }
 

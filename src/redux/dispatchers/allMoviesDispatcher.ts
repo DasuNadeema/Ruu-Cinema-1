@@ -20,8 +20,3 @@ export const getAllMovies = () => async (dispatch: Dispatch) => {
     }
   }
 };
-
-// clear errors
-// export const clearErrors = () => async (dispatch) => {
-//   dispatch(clearError());
-// };

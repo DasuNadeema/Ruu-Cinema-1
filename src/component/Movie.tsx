@@ -8,7 +8,6 @@ export default function Movie() {
       <div className="movie">
         <img src={img2} alt="" className="m-img1" />
       </div>
-      <br />
     </Fragment>
   );
 }
