@@ -1,0 +1,152 @@
+.for-you {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.box .box-img {
+  margin-top: 2rem;
+  width: 100%;
+  height: 320px;
+}
+
+.categories ul li {
+  border: 1px solid rgb(48, 41, 41);
+  border-radius: 2px;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  list-style: none;
+  color: aliceblue;
+  padding: 10px 25px;
+  background: #191919;
+  transition: 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.categories ul li:hover {
+  background-color: #ce0808;
+}
+
+.categories a {
+  border-radius: 5px;
+  margin-right: 5px;
+  gap: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.box .box-img img {
+  border-radius: 10px;
+  width: 95%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.important {
+  background-color: #ce0808;
+}
+
+.box .box-img img:hover {
+  transform: translateY(-10px);
+  transition: 0.2s all linear;
+}
+
+h3 {
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.box span {
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+@media (max-width: 1215px) {
+  .for-you {
+    max-width: 100%;
+    margin-left: 0;
+    gap: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  }
+}
+
+@media (max-width: 992px) {
+  .box .box-img img {
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .box .box-img {
+    margin-top: 2rem;
+    width: 80%;
+    height: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .categories a {
+    font-size: 12px;
+    margin-right: 2px;
+    gap: 5px;
+  }
+
+  .categories ul li {
+    border: 1px solid rgb(48, 41, 41);
+    border-radius: 2px;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    list-style: none;
+    color: aliceblue;
+    padding: 10px 10px;
+    background: #191919;
+    transition: 0.3s;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .box .box-img img {
+    margin-left: 3px;
+    border-radius: 10px;
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .box .box-img {
+    height: 200px;
+    width: 104%;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  span {
+    font-size: 13px;
+  }
+
+  .for-you {
+    width: 104%;
+    margin-left: 0;
+    gap: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  }
+
+  .box .box-img img:hover {
+    transform: translateY(-5px);
+    transition: 0.2s all linear;
+  }
+}

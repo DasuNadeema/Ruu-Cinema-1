@@ -1,0 +1,113 @@
+/* .S-main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  height: 200vh;
+  color: aliceblue;
+  background: rgba(82, 79, 79, 0.616);
+  border-radius: 20px;
+}
+
+#S-main {
+  padding: auto;
+  align-items: center;
+}
+
+.s-img {
+  background-color: rgba(73, 6, 6, 0.521);
+  text-align: center;
+}
+.s-img img {
+  border-radius: 10px;
+  margin: 1rem;
+  width: 30%;
+  height: 75%;
+}
+
+.H-btn {
+  text-align: right;
+  margin: 3rem;
+}
+
+.H-btn a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.details {
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.watch a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.watch {
+  margin-left: 0rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.watch a:hover {
+  border: 1px solid aliceblue;
+  transition: ease-in-out 0.45s;
+  background-color: aliceblue;
+  color: black;
+}
+
+.categories-2 ul li {
+  border: 1px solid rgb(48, 41, 41);
+  border-radius: 2px;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  color: aliceblue;
+  padding: 10px 15px;
+  background: #191919;
+  transition: 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.categories-2 a {
+  border-radius: 5px;
+  margin-right: 5px;
+  gap: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.categories-2 ul li:hover {
+  background-color: red;
+  transition: ease-in-out 0.35;
+}
+
+.rating-and-others2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+.rating-and-others2 span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.rating-and-others2 .bx {
+  font-size: 2em;
+  color: gold;
+  margin-bottom: 1rem;
+} */
