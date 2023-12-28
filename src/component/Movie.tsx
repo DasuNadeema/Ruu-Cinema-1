@@ -6,9 +6,8 @@ export default function Movie() {
   return (
     <Fragment>
       <div className="movie">
-        {/* <img src={img3} alt="" className="m-img1" /> */}
         <img src={img2} alt="" className="m-img1" />
-        <div className="m-text">
+        {/* <div className="m-text">
           <h4>John Wick</h4>
           <span>2012</span>
           <br />
@@ -21,11 +20,10 @@ export default function Movie() {
             excepturi sit eos a quasi.
           </p>
           <br />
-        </div>
+        </div> */}
         <a className="a1" href="#">
           Watch <ion-icon name="play-circle-outline"></ion-icon>
         </a>
-        {/* <img src={img3} alt="" className="m-img2" /> */}
       </div>
       <br />
     </Fragment>
