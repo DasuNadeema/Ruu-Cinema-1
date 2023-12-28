@@ -1,17 +1,7 @@
 import React from "react";
 import "../component/Tv.css";
-import tvtag1 from "../images/Mini/bb.jpg";
-import tvtag2 from "../images/Mini/got.jpg";
-import tvtag3 from "../images/Mini/pb.jpg";
-import tvtag4 from "../images/Mini/loki_lob_crd_04.jpg";
-import tvtag5 from "../images/Mini/Last of us.jpeg";
-import tvtag6 from "../images/Mini/freinds.jpg";
-import tvtag7 from "../images/Mini/st.jpg";
-import tvtag8 from "../images/Mini/Boys.webp";
-import tvtag9 from "../images/Mini/Batman.jpg";
-import tvtag10 from "../images/Mini/MIndhunter.jpg";
-import tvtag11 from "../images/Mini/from.jpg";
-import tvtag12 from "../images/Mini/Foundation_TV_Series-328382265-large.jpg";
+import tvtag1 from "../images/Mini/Last of us.jpeg";
+import Schedule from "./Schedule";
 
 function Tv() {
   return (
@@ -43,7 +33,6 @@ function Tv() {
           </div>
         </div>
       </div>
-
       <div className="tv-shows">
         <div className="box">
           <div className="box-img">
