@@ -19,9 +19,7 @@ function Card({ key, imageUrl, filmName, runtime, category }: CardProps) {
           </div>
         </Link>
         <h3>{filmName}</h3>
-        <span>
-          {runtime} | {category.join(", ")}
-        </span>
+        <span>{runtime}</span>
       </div>
     </div>
   );

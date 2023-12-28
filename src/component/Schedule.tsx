@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "../component/Schedule.css";
 import { useAppDispatch, useAppSelector } from "../redux/app/hooks";
 import { Fragment, useEffect } from "react";
 import { getAllMovies } from "../redux/dispatchers/allMoviesDispatcher";

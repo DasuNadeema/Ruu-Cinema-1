@@ -1,18 +1,19 @@
 .for-you {
-  width: 100%;
+  width: 15%;
   height: 100%;
-  margin-right: auto;
-  margin-left: 0rem;
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
-  gap: 0.5rem;
+  display: inline-flex;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
 .box .box-img {
   margin-top: 2rem;
-  width: 90%;
-  height: 320px;
+  width: 95%;
+  max-height: 320px;
+}
+
+.box {
+  margin-left: 0rem;
 }
 
 .categories ul li {
@@ -44,12 +45,12 @@
 
 .box .box-img img {
   border-radius: 10px;
-  width: 95%;
+  width: 100%;
   height: 320px;
   object-fit: cover;
 }
 
-.important {
+.box .important {
   background-color: #ce0808;
 }
 
@@ -72,38 +73,50 @@ h3 {
 
 @media (max-width: 1215px) {
   .for-you {
-    max-width: 100%;
-    margin-left: 0;
-    gap: 0;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    width: 15%;
+    gap: 0.1rem;
   }
 }
 
 @media (max-width: 992px) {
+  .for-you {
+    width: 15%;
+  }
   .box .box-img img {
     margin: 0;
-    width: 100%;
+    width: 95%;
     height: 250px;
     object-fit: cover;
   }
   .box .box-img {
     margin-top: 2rem;
-    width: 80%;
+    width: 100%;
     height: 260px;
+  }
+}
+
+@media (max-width: 780px) {
+  .categories a {
+    font-size: 14px;
+    margin-right: 2px;
+    gap: 8px;
+  }
+
+  .for-you {
+    width: 16%;
   }
 }
 
 @media (max-width: 600px) {
   .categories a {
-    font-size: 12px;
-    margin-right: 2px;
-    gap: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    gap: 10px;
   }
 
   .categories ul li {
     border: 1px solid rgb(48, 41, 41);
-    border-radius: 2px;
+    border-radius: 0px;
     display: inline-block;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -117,7 +130,7 @@ h3 {
   }
 
   .box .box-img img {
-    margin-left: 3px;
+    margin-left: 0px;
     border-radius: 10px;
     width: 90%;
     height: 180px;
@@ -125,6 +138,7 @@ h3 {
   }
 
   .box .box-img {
+    margin-left: 0;
     height: 200px;
     width: 104%;
   }
@@ -133,20 +147,30 @@ h3 {
     font-size: 17px;
   }
 
-  span {
+  .box span {
     font-size: 13px;
   }
 
   .for-you {
-    width: 104%;
-    margin-left: 0;
-    gap: 0;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    width: 20%;
   }
 
   .box .box-img img:hover {
     transform: translateY(-5px);
     transition: 0.2s all linear;
   }
+}
+
+.card {
+  display: flex;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  width: 100%;
 }
