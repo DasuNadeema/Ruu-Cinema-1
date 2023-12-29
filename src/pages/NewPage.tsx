@@ -117,48 +117,13 @@ function NewPage() {
         <a href="#"> Post Comment</a>
       </div>
       <br />
+      <h2> -- More Movies</h2>
       <div className="more-movies">
-        <h2> -- More Movies</h2>
         <div className="box2">
           <div className="box2-img">
             <img src={tag2} alt="" />
           </div>
           <h3>Blonde</h3>
-          <span>120min | Action</span>
-        </div>
-        <div className="box2">
-          <div className="box2-img">
-            <img src={tag11} alt="" />
-          </div>
-          <h3>Monster</h3>
-          <span>120min | Action</span>
-        </div>{" "}
-        <div className="box2">
-          <div className="box2-img">
-            <img src={tag12} alt="" />
-          </div>
-          <h3>Little Women</h3>
-          <span>120min | Action</span>
-        </div>{" "}
-        <div className="box2">
-          <div className="box2-img">
-            <img src={tag13} alt="" />
-          </div>
-          <h3>Paw</h3>
-          <span>120min | Action</span>
-        </div>
-        <div className="box2">
-          <div className="box2-img">
-            <img src={tag14} alt="" />
-          </div>
-          <h3>Inspector-Avinash</h3>
-          <span>120min | Action</span>
-        </div>
-        <div className="box2">
-          <div className="box2-img">
-            <img src={tag4} alt="" />
-          </div>
-          <h3>Tiger-3</h3>
           <span>120min | Action</span>
         </div>
       </div>

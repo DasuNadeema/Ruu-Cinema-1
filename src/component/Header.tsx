@@ -12,11 +12,6 @@ export default function Header() {
         <img src={Logo} alt="" />
       </a>
 
-      {/* <ul className="nav">
-        {navListData.map((nav) => (
-          <NavListItem key={nav._id} nav={nav} />
-        ))}
-      </ul> */}
       <Search />
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="menu">
@@ -24,10 +19,6 @@ export default function Header() {
         <i className="bx bx-x" id="close-icon"></i>
       </label>
       <NavListItem />
-
-      {/* <button>
-        <a href="#">Sign in</a>
-      </button> */}
     </header>
   );
 }
